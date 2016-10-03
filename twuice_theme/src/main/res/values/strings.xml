@@ -22,8 +22,8 @@
     <!-- Go theme information -->
 
     <string name="theme_info">Your theme information here</string>
-    <string name="go_applied">Text for theme applied popup</string>
-    <string name="title_activity_about">About this Iconpack</string>
+    <string name="go_applied">You have added Twuice succesfully</string>
+    <string name="title_activity_about">Twuice Icon Pack</string>
 
     <!-- Strings related to Settings -->
 
