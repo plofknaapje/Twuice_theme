@@ -1,0 +1,7 @@
+#Mon Oct 03 19:13:32 CEST 2016
+base.0=/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cf2ae362fb091ad5f1a3608cd22bacdba0c1c0fd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f8aa7bb5dcf6382b30003bcc5dc944bed5639c3/classes.dex
+base.1=/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f8aa7bb5dcf6382b30003bcc5dc944bed5639c3
+file.0=/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cf2ae362fb091ad5f1a3608cd22bacdba0c1c0fd/classes.dex

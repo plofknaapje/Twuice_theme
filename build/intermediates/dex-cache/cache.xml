@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0e88a3f843b007af5636b0a7297f5b4340c39f7f">
+        <dex dex="/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f8aa7bb5dcf6382b30003bcc5dc944bed5639c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c49ad1bb608d28805604535e5e16172e31ed1915">
+        <dex dex="/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cf2ae362fb091ad5f1a3608cd22bacdba0c1c0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Robin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_87d3ab15ef5df10c7674637a2003eb92251cdc8f/classes.dex" />
+    </item>
+
+</items>
