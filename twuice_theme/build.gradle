@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 23
     buildToolsVersion "24.0.3"
 
     defaultConfig {
         applicationId "com.omegapps.twuicetheme"
-        targetSdkVersion 19
+        minSdkVersion 9
+        targetSdkVersion 24
     }
 
     buildTypes {
