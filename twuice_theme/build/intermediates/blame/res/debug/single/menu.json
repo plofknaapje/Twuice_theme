@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/Robin/Documents/Twuice-theme/twuice_theme/build/intermediates/res/merged/debug/menu/icons.xml",
+        "source": "/Users/Robin/Documents/Twuice-theme/twuice_theme/src/main/res/menu/icons.xml"
+    },
+    {
         "merged": "/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/build/intermediates/res/merged/debug/menu/icons.xml",
         "source": "/Users/Robin/Downloads/scratch_icon_pack_source-master2/twuice_theme/src/main/res/menu/icons.xml"
     }
