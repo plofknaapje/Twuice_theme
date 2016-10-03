@@ -5,13 +5,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="23" />
-
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:icon="@drawable/icon"
@@ -73,7 +69,7 @@
         </activity>
         <activity
             android:name="com.omegapps.twuicetheme.About"
-            android:label="@string/title_activity_about"
+            android:label="Twuice"
             android:icon="@drawable/icon">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
