@@ -83,10 +83,10 @@
     <item component="ComponentInfo{com.google.android.apps.tachyon/com.google.android.apps.tachyon.MainActivity}" drawable="duo" />
     <item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.view.FileExplorerActivity}" drawable="es_file_explorer" />
     <item component="ComponentInfo{com.estrongs.android.pop.tmp/com.estrongs.android.pop.app.FileExplorerActivity}" drawable="es_file_explorer" />
-    <item component="ComponentInfo{}" drawable="" />
-    <item component="ComponentInfo{}" drawable="" />
-    <item component="ComponentInfo{}" drawable="" />
-    <item component="ComponentInfo{}" drawable="" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="facebook" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="google" />
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.VoiceSearchActivity}" drawable="google" />
+    <item component="ComponentInfo{}" drawable="google_keyboard" />
     <item component="ComponentInfo{}" drawable="" />
     <item component="ComponentInfo{}" drawable="" />
 </resources>
