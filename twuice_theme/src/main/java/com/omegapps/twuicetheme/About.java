@@ -2,6 +2,8 @@ package com.omegapps.twuicetheme;
 
 
 import android.annotation.TargetApi;
+import android.app.Dialog;
+import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -16,9 +18,12 @@ import android.preference.PreferenceActivity;
 import android.app.ActionBar;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.preference.PreferenceScreen;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
 import android.view.MenuItem;
+
+import com.omegapps.twuicetheme.Dialogs.SuggestIcon;
 
 import java.util.List;
 
@@ -38,6 +43,7 @@ public class About extends PreferenceActivity {
      * A preference value change listener that updates the preference's summary
      * to reflect its new value.
      */
+    public static String PACKAGE_NAME;
     private static Preference.OnPreferenceChangeListener sBindPreferenceSummaryToValueListener = new Preference.OnPreferenceChangeListener() {
         @Override
         public boolean onPreferenceChange(Preference preference, Object value) {
@@ -120,6 +126,7 @@ public class About extends PreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setupActionBar();
+        PACKAGE_NAME = getPackageName();
     }
 
     /**
@@ -171,6 +178,36 @@ public class About extends PreferenceActivity {
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             addPreferencesFromResource(R.xml.pref_general);
+            PreferenceScreen screen = getPreferenceScreen();
+            if(screen!=null){
+                Preference suggest = screen.getPreference(screen.getPreferenceCount() - 1);
+                Preference rateUs = screen.getPreference(screen.getPreferenceCount() - 2);
+                final Preference aboutUs = screen.getPreference(screen.getPreferenceCount() - 4);
+                rateUs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                    @Override
+                    public boolean onPreferenceClick(Preference preference) {
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id="+PACKAGE_NAME));
+                        startActivity(intent);
+                        return true;
+                    }
+                });
+                aboutUs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                    @Override
+                    public boolean onPreferenceClick(Preference preference) {
+                        Intent intent = new Intent(getActivity(),AboutUs.class);
+                        startActivity(intent);
+                        return true;
+                    }
+                });
+                suggest.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                    @Override
+                    public boolean onPreferenceClick(Preference preference) {
+                        DialogFragment dialog = new SuggestIcon();
+                        dialog.show(getFragmentManager(), "A Dialog");
+                        return true;
+                    }
+                });
+            }
             setHasOptionsMenu(true);
         }
 

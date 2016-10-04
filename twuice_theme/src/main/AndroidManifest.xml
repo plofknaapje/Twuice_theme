@@ -3,18 +3,14 @@
     package="com.omegapps.twuicetheme"
     android:installLocation="auto"
     android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    android:versionName="1.0">
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/theme_title" >
+        android:label="@string/theme_title">
         <activity
-            android:name="com.omegapps.twuicetheme.MainActivity"
-            android:label="@string/theme_title" >
+            android:name=".MainActivity"
+            android:label="@string/theme_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -59,8 +55,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.omegapps.twuicetheme.Icons"
-            android:label="@string/title_activity_icons" >
+            android:name=".Icons"
+            android:label="@string/title_activity_icons">
             <intent-filter>
                 <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
 
@@ -68,14 +64,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.omegapps.twuicetheme.About"
+            android:name=".About"
+            android:icon="@drawable/icon"
             android:label="Twuice"
-            android:icon="@drawable/icon">
+            android:theme="@style/AppTheme">
             <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER"/>
-                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".AboutUs"></activity>
     </application>
 
 </manifest>
