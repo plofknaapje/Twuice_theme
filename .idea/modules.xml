@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Twuice-theme.iml" filepath="$PROJECT_DIR$/Twuice-theme.iml" />
       <module fileurl="file://$PROJECT_DIR$/Twuice_theme.iml" filepath="$PROJECT_DIR$/Twuice_theme.iml" />
       <module fileurl="file://$PROJECT_DIR$/twuice_theme/twuice_theme.iml" filepath="$PROJECT_DIR$/twuice_theme/twuice_theme.iml" />
     </modules>
