@@ -1,6 +1,0 @@
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <Preference android:title="Made by:" android:summary="Stijn van der Grinten, Robin Verhoef and Daniel Verhoef"></Preference>
-    <Preference android:title="Why Twuice?" android:summary="Twuice is a Material Design inspired icon pack which aimes to give every android user a clean and smooth icon experience"></Preference>
-    <Preference android:title="Rate us" android:summary="If you enjoy Twuice, please rate five stars in Google Play, it helps us a lot :)"></Preference>
-    <Preference android:title="Request Icon" android:summary="Request an icon."></Preference>
-</PreferenceScreen>
