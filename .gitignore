@@ -38,6 +38,8 @@ captures/
 
 # Keystore files
 *.jks
+#idea
+.idea/
 .idea/modules.xml
 .idea/vcs.xml
 .idea/modules.xml
