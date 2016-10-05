@@ -225,6 +225,9 @@
     <item
         component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}"
         drawable="spotify" />
+    <item
+        component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}"
+        drawable="spotify" />
 
     <!-- Heise -->
     <item
