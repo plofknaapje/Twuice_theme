@@ -186,6 +186,9 @@
     <item
         component="ComponentInfo{com.android.chrome/com.android.chrome.Main}"
         drawable="chrome" />
+    <item
+        component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}"
+        drawable="chrome_beta" />
 
     <!-- Doubletwist -->
     <item
