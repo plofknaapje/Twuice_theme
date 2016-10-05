@@ -21,7 +21,7 @@
     <item drawable="es_file_explorer" />
     <item drawable="facebook" />
     <item drawable="googlesearch" />
-    <item drawable="google_keyboard" />
+    <item drawable="googlekeyboard" />
     <item drawable="hangouts" />
     <item drawable="inbox" />
     <item drawable="labda" />
@@ -107,4 +107,5 @@
     <item drawable="paypal" />
     <item drawable="wikipedia" />
     <item drawable="adblocker" />
+    <item drawable="keep" />
 </resources>

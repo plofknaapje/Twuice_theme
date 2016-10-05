@@ -21,7 +21,7 @@
 		<item>es_file_explorer</item>
 		<item>facebook</item>
 		<item>googlesearch</item>
-		<item>google_keyboard</item>
+		<item>googlekeyboard</item>
 		<item>hangouts</item>
 		<item>inbox</item>
 		<item>labda</item>
@@ -107,5 +107,6 @@
 		<item>paypal</item>
 		<item>wikipedia</item>
 		<item>adblocker</item>
+		<item>keep</item>
 	</string-array>
 </resources>

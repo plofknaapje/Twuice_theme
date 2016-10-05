@@ -41,7 +41,7 @@
     <!-- Google Keyboard -->
     <item
         component="ComponentInfo{com.google.android.inputmethod.latin/com.android.inputmethod.latin.setup.SetupActivity}"
-        drawable="google_keyboard" />
+        drawable="googlekeyboard" />
     
     <!-- Google Hangouts -->
     <item
@@ -220,10 +220,13 @@
 
     <!-- Spotify -->
     <item
-        component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher}"
+        component="com.spotify.music/com.spotify.music.MainActivity}"
         drawable="spotify" />
     <item
-        component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}"
+        component="com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}"
+        drawable="spotify" />
+    <item
+        component="com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.Launcher"
         drawable="spotify" />
     <item
         component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}"
@@ -609,6 +612,9 @@
         drawable="gallery" />
     <item
         component="ComponentInfo{com.google.android.gallery3d/com.android.camera.CameraLauncher}"
+        drawable="gallery" />
+    <item
+        component="ComponentInfo{com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity}"
         drawable="gallery" />
 
     <!-- DB Navigator -->
@@ -1258,6 +1264,11 @@
     <item
         component="ComponentInfo{org.adblockplus.android/org.adblockplus.android.Preferences}"
         drawable="adblocker" />
+
+    <!-- Google Keep -->
+    <item
+        component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}"
+        drawable="keep" />
 
     <!-- Empty Template -->
     <item
