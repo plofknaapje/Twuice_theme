@@ -108,5 +108,7 @@
 		<item>wikipedia</item>
 		<item>adblocker</item>
 		<item>keep</item>
+		<item>googlemovies</item>
+		<item>googlegames</item>
 	</string-array>
 </resources>

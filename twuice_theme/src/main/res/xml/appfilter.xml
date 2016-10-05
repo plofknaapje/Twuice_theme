@@ -1270,6 +1270,22 @@
         component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}"
         drawable="keep" />
 
+    <!-- Google Play Movies -->
+    <item
+        component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}"
+        drawable="googlemovies" />
+    <item
+        component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.honeycomb.VideosActivity}"
+        drawable="googlemovies" />
+    <item
+        component="ComponentInfo{com.google.android.videos/com.google.android.videos.activity.LauncherActivity}"
+        drawable="googlemovies" />
+
+    <!-- Google Play Games -->
+    <item
+        component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}"
+        drawable="googlegames" />
+    
     <!-- Empty Template -->
     <item
         component="ComponentInfo{}"

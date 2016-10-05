@@ -108,4 +108,6 @@
     <item drawable="wikipedia" />
     <item drawable="adblocker" />
     <item drawable="keep" />
+    <item drawable="googlemovies" />
+    <item drawable="googlegames" />
 </resources>
