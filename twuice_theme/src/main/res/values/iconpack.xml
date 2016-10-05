@@ -1,114 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="icon_pack" translatable="false">
-		<item>negentwee</item>
+		<item>abn_bank</item>
+		<item>adblocker</item>
+		<item>adfree</item>
+		<item>adobeflash</item>
+		<item>adobereader</item>
 		<item>airdroid</item>
 		<item>allo</item>
+		<item>amazon</item>
 		<item>ancestor</item>
-		<item>abn_bank</item>
+		<item>androidbrowser</item>
+		<item>apexlauncher</item>
+		<item>barcodescanner</item>
 		<item>bluelight</item>
+		<item>buienradar</item>
 		<item>calculator</item>
 		<item>calendar</item>
 		<item>camera</item>
+		<item>camerazoomfx</item>
 		<item>chrome</item>
 		<item>clock</item>
+		<item>compass</item>
 		<item>contacts</item>
+		<item>dbrailnavigator</item>
 		<item>deviantart</item>
+		<item>dictcc</item>
+		<item>dolphinbrowser</item>
+		<item>doubletwist</item>
 		<item>downloads</item>
 		<item>drippler</item>
 		<item>drive</item>
-		<item>duo</item>
-		<item>es_file_explorer</item>
-		<item>facebook</item>
-		<item>googlesearch</item>
-		<item>googlekeyboard</item>
-		<item>hangouts</item>
-		<item>inbox</item>
-		<item>labda</item>
-		<item>play_store</item>
-		<item>snapchat</item>
-		<item>twitter</item>
-		<item>whatsapp</item>
-		<item>youtube</item>
-		<item>sms</item>
-		<item>phone</item>
-		<item>settings</item>
-		<item>androidbrowser</item>
-		<item>twicca</item>
-		<item>doubletwist</item>
-		<item>googleplus</item>
-		<item>spotify</item>
-		<item>heiseonline</item>
-		<item>flipboard</item>
-		<item>tapatalk</item>
-		<item>gmail</item>
-		<item>email</item>
-		<item>googlemaps</item>
-		<item>camerazoomfx</item>
-		<item>gallery</item>
-		<item>dbrailnavigator</item>
-		<item>setcpu</item>
-		<item>rootexplorer</item>
-		<item>tasks</item>
-		<item>googlevoicesearch</item>
-		<item>adobeflash</item>
-		<item>adobereader</item>
-		<item>dolphinbrowser</item>
-		<item>skype</item>
-		<item>rommanager</item>
-		<item>quickpic</item>
-		<item>shazam</item>
-		<item>imdb</item>
-		<item>googleearth</item>
-		<item>soundhound</item>
-		<item>facebookmessenger</item>
-		<item>wolframalpha</item>
-		<item>pocket</item>
-		<item>thefancy</item>
-		<item>pinterest</item>
-		<item>springpad</item>
-		<item>vimeo</item>
-		<item>dictcc</item>
-		<item>tasker</item>
-		<item>moonreader</item>
-		<item>adfree</item>
-		<item>ted</item>
-		<item>apexlauncher</item>
-		<item>googlemusic</item>
-		<item>music</item>
-		<item>evernote</item>
-		<item>taskmanager</item>
-		<item>compass</item>
 		<item>dropbox</item>
-		<item>barcodescanner</item>
-		<item>golauncher</item>
-		<item>googlereader</item>
-		<item>superuser</item>
-		<item>gtasks</item>
-		<item>newsandweather</item>
-		<item>themechooser</item>
-		<item>speedtest</item>
-		<item>firefox</item>
-		<item>foursquare</item>
-		<item>amazon</item>
-		<item>googlegoggles</item>
+		<item>duo</item>
 		<item>ebay</item>
-		<item>tripadvisor</item>
-		<item>swiftkey</item>
+		<item>email</item>
+		<item>es_file_explorer</item>
+		<item>evernote</item>
+		<item>facebook</item>
+		<item>facebookmessenger</item>
+		<item>firefox</item>
+		<item>flipboard</item>
+		<item>foursquare</item>
+		<item>gallery</item>
+		<item>gmail</item>
+		<item>golauncher</item>
 		<item>googlebooks</item>
-		<item>netflix</item>
-		<item>reddit</item>
-		<item>instagram</item>
-		<item>novalauncher</item>
-		<item>googletranslate</item>
 		<item>googledocs</item>
-		<item>nsreisplanner</item>
-		<item>buienradar</item>
-		<item>paypal</item>
-		<item>wikipedia</item>
-		<item>adblocker</item>
-		<item>keep</item>
-		<item>googlemovies</item>
+		<item>googleearth</item>
 		<item>googlegames</item>
+		<item>googlegoggles</item>
+		<item>googlekeyboard</item>
+		<item>googlemaps</item>
+		<item>googlemovies</item>
+		<item>googlemusic</item>
+		<item>googlenewsstand</item>
+		<item>googleplus</item>
+		<item>googlereader</item>
+		<item>googlesearch</item>
+		<item>googletranslate</item>
+		<item>googlevoicesearch</item>
+		<item>gtasks</item>
+		<item>hangouts</item>
+		<item>heiseonline</item>
+		<item>imdb</item>
+		<item>inbox</item>
+		<item>instagram</item>
+		<item>keep</item>
+		<item>labda</item>
+		<item>moonreader</item>
+		<item>music</item>
+		<item>negentwee</item>
+		<item>netflix</item>
+		<item>newsandweather</item>
+		<item>novalauncher</item>
+		<item>nsreisplanner</item>
+		<item>paypal</item>
+		<item>phone</item>
+		<item>pinterest</item>
+		<item>play_store</item>
+		<item>pocket</item>
+		<item>quickpic</item>
+		<item>reddit</item>
+		<item>rommanager</item>
+		<item>rootexplorer</item>
+		<item>setcpu</item>
+		<item>settings</item>
+		<item>shazam</item>
+		<item>skype</item>
+		<item>sms</item>
+		<item>snapchat</item>
+		<item>soundhound</item>
+		<item>speedtest</item>
+		<item>spotify</item>
+		<item>springpad</item>
+		<item>superuser</item>
+		<item>swiftkey</item>
+		<item>tapatalk</item>
+		<item>tasker</item>
+		<item>taskmanager</item>
+		<item>tasks</item>
+		<item>ted</item>
+		<item>thefancy</item>
+		<item>themechooser</item>
+		<item>tripadvisor</item>
+		<item>twicca</item>
+		<item>twitter</item>
+		<item>vimeo</item>
+		<item>whatsapp</item>
+		<item>wikipedia</item>
+		<item>wolframalpha</item>
+		<item>youtube</item>
 	</string-array>
 </resources>
