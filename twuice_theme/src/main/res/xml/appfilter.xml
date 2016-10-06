@@ -1295,6 +1295,16 @@
         component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}"
         drawable="googleconsole" />
 
+    <!-- Google Play Console -->
+    <item
+        component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}"
+        drawable="googleconsole" />
+
+    <!--  -->
+    <item
+        component="ComponentInfo{}"
+        drawable="" />
+
     <!--  -->
     <item
         component="ComponentInfo{}"
