@@ -1290,6 +1290,10 @@
     <item
         component="ComponentInfo{com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity}"
         drawable="googlenewsstand" />
+    <!-- Google Play Console -->
+    <item
+        component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}"
+        drawable="googleconsole" />
 
     <!--  -->
     <item
