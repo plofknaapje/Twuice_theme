@@ -8,6 +8,6 @@ Twuice brings lovely roundness, bright colours and sleek shadows right to your H
 
 We are rapidly adding icons; our aim is to add at least 20 per week. Can't find the icon you want? Request it, using the in-app button!
 
-[Download now:][1]
+[Download now][1]
 
 [1]: https://play.google.com/store/apps/details?id=com.omegapps.twuicetheme
