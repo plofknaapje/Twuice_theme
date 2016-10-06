@@ -79,11 +79,6 @@
             android:label="Twuice"
             android:theme="@style/AppTheme"
             android:launchMode="singleTask">
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AboutUs"
