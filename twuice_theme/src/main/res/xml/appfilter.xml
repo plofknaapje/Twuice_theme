@@ -81,6 +81,18 @@
     <item
         component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}"
         drawable="sms" />
+    <item
+        component="ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}"
+        drawable="sms" />
+    <item
+        component="ComponentInfo{com.samsung.android.messaging/com.android.mms.ui.ConversationComposer}"
+        drawable="sms" />
+    <item
+        component="ComponentInfo{msgplus.jibe.sca.vpl/com.sprint.android.vpl.MainActivity}"
+        drawable="sms" />
+    <item
+        component="ComponentInfo{com.google.android.apps.fireball/com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity}"
+        drawable="sms" />
 
     <!-- Dial -->
     <item
@@ -1183,7 +1195,9 @@
     <item
         component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.HomeActivity}"
         drawable="googletranslate" />
-
+    <item
+        component="ComponentInfo{com.google.android.apps.translate/com.google.android.apps.translate.TranslateActivity}"
+        drawable="googletranslate" />
 
     <!-- Google Docs -->
     <item
@@ -1231,6 +1245,12 @@
     <!-- wikipedia -->
     <item
         component="ComponentInfo{org.wikipedia/org.wikipedia.WikipediaActivity}"
+        drawable="wikipedia" />
+    <item
+        component="ComponentInfo{org.wikipedia/org.wikipedia.page.PageActivity}"
+        drawable="wikipedia" />
+    <item
+        component="ComponentInfo{org.wikipedia/org.wikipedia.MainActivity}"
         drawable="wikipedia" />
 
     <!-- ShopSavvy Barcode Scanner -->
