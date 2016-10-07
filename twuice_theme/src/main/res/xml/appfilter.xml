@@ -116,6 +116,9 @@
     <item
         component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}"
         drawable="phone" />
+    <item
+        component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}"
+        drawable="phone"/>
 
     <!-- Clock -->
     <item
@@ -1136,6 +1139,9 @@
         drawable="netflix" />
     <item
         component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}"
+        drawable="netflix" />
+    <item
+        component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}"
         drawable="netflix" />
 
     <!-- Reddit -->

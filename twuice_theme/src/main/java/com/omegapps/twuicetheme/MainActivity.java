@@ -168,8 +168,17 @@ public class MainActivity extends PreferenceActivity {
             PreferenceScreen screen = getPreferenceScreen();
             if(screen!=null){
                 Preference suggest = screen.getPreference(screen.getPreferenceCount() - 1);
-                Preference rateUs = screen.getPreference(screen.getPreferenceCount() - 2);
-                final Preference aboutUs = screen.getPreference(screen.getPreferenceCount() - 4);
+                Preference website = screen.getPreference(screen.getPreferenceCount()-2);
+                Preference rateUs = screen.getPreference(screen.getPreferenceCount() - 3);
+                final Preference aboutUs = screen.getPreference(screen.getPreferenceCount() - 5);
+                website.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                    @Override
+                    public boolean onPreferenceClick(Preference preference) {
+                        startActivity(new Intent(Intent.ACTION_VIEW,
+                                Uri.parse("http://omegapps.nl")));
+                        return true;
+                    }
+                });
                 rateUs.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                     @Override
                     public boolean onPreferenceClick(Preference preference) {
