@@ -37,7 +37,7 @@ public class SuggestIcon extends DialogFragment {
                         final Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 
                         emailIntent.setType("plain/text");
-                        emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"info@omegapps.nl"});
+                        emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"twuice@omegapps.nl"});
                         emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "An icon suggestion.");
                         emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "App name: " + name.getText() + "\nUrl in the Play Store: " + url.getText());
                         getActivity().startActivity(Intent.createChooser(emailIntent, "Send mail..."));
