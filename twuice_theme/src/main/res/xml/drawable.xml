@@ -26,6 +26,7 @@
     <item drawable="dbrailnavigator" />
     <item drawable="deviantart" />
     <item drawable="dictcc" />
+    <item drawable="discord" />
     <item drawable="dolphinbrowser" />
     <item drawable="doubletwist" />
     <item drawable="downloads" />
@@ -56,6 +57,7 @@
     <item drawable="googlemovies" />
     <item drawable="googlemusic" />
     <item drawable="googlenewsstand" />
+    <item drawable="googlephoto" />
     <item drawable="googleplus" />
     <item drawable="googlereader" />
     <item drawable="googlesearch" />

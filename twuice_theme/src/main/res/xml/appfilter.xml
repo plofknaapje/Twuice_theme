@@ -94,7 +94,7 @@
         component="ComponentInfo{com.google.android.apps.fireball/com.google.android.apps.fireball.ui.conversationlist.ConversationListActivity}"
         drawable="sms" />
 
-    <!-- Dial -->
+    <!-- Dialer Phone Apps-->
     <item
         component="ComponentInfo{com.android.contacts/com.android.contacts.activites.DialtactsActivity}"
         drawable="phone" />
@@ -1320,11 +1320,15 @@
         component="ComponentInfo{com.google.android.apps.playconsole/com.google.android.apps.playconsole.activity.MainAndroidActivity}"
         drawable="googleconsole" />
 
-    <!--  -->
+    <!-- Google Photos -->
     <item
-        component="ComponentInfo{}"
-        drawable="" />
+        component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}"
+        drawable="googlephoto" />
 
+    <!-- Discord -->
+    <item
+        component="ComponentInfo{com.discord/com.discord.screens.ScreenLoading}"
+        drawable="discord" />
     <!--  -->
     <item
         component="ComponentInfo{}"
